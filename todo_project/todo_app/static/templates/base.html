@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Note Taker</title>
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+</head>
+<body>
+    <div class="w3-bar w3-bar-block w3-green">
+        <h1 class="w3-text-amber w3-center">Django To-Do Lists</h1>
+        <a href="{% url 'templates/index' %}" class="w3-button w3-pale-green">Noter</a>
+    </div><br>
+
+    {% block content %}
+
+    {% endblock %}
+
+    <br>
+    <footer class="w3-bar w3-auto w3-green w3-center">Mohammed Sarim</footer>
+</body>
+</html>
